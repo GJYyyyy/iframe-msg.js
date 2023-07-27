@@ -1,0 +1,19 @@
+{
+  "name": "iframe-msg.js",
+  "version": "1.0.0",
+  "description": "Encapsulated iframe communication function",
+  "main": "src/IframeMsg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GJYyyyy/iframe-msg.js.git"
+  },
+  "author": "GJYyyyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GJYyyyy/iframe-msg.js/issues"
+  },
+  "homepage": "https://github.com/GJYyyyy/iframe-msg.js#readme"
+}
