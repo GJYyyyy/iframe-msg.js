@@ -10,8 +10,6 @@
 
     return class IframeMsg extends EventTarget {
 
-        data; // 接收到的信息
-
         /**
          * 通信对方的window对象
          * @param {Window} _window 
@@ -19,6 +17,7 @@
         constructor(_window) {
             super();
             this._window = _window;
+            this.data = null; // 接收到的信息
             this.init();
         }
 
